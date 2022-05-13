@@ -1,0 +1,38 @@
+Conhecimentos
+
+  Neste primeiro projeto, irei colocar as anotações que fiz e conhecimento que tive durante o ensino sobre Git e Github.
+  Como primeiro ensinamento foi dito o significado de “SHA-1”, que é uma função criptográfica que gera uma chave de 40 caracteres para a segurança de algum tipo de arquivo, que pode ser conhecida como “ssh”.
+
+Git/Github
+  
+  No Git, foi apresentado a definição que é uma sistema de ligação direta entre o sistema local e o servidor para qual você quer orientar seu diretório, a fim também de criar uma segurança para o seu arquivo. O Github seria o servidor de armazenamento dos repositórios, arquivos. 
+  Foi demonstrado o que são Blobs, Tree e Commit; onde Commit é seu fundamento final, pois é nele que contém todo o os seus arquivos e qualquer mudança feita em qualquer lugar acarretará numa mudança no commit, assim gerando um conflito entre o documento final e atual.
+  Após criação da conta no github, é aconselhado a providenciar uma chave ssh para ser mais flexível a importação e exportação de arquivos. Para gerar e efetivar essa chave é preciso fazer um certo comando:
+“ssh-keygen -t ed25519 -C email = parar gerar a chave.
+“eval $(ssh-agent -s) = gerar uma agente para a chave.
+“ssh-add nome do arquivo id_ed25519 = para garantir a chave parar o agente.
+Obs.: Esses comando estarão aqui e não na lista por serem comandos específicos para a geração da chave.
+
+Comandos
+  
+  Aqui citarei alguns comandos e definição.
+“ls” = ver a lista de arquivos presente.
+“cd nome do arquivo” = avançar para o diretório/arquivo a qual deseja.
+“cd ..” =  voltar uma camada de seu diretório/arquivo.
+“clear” = para limpar seu prompt.
+“mkdir nome do arquivo” = para criar uma nova pasta.
+“echo > denominação” = para gerar um arquivo com um tipo de formato.
+“rmdir “nome do arquivo” = para remover o diretório/pasta.
+  
+ 
+
+
+ Comandos para o Git:
+“git init” = para iniciar seu git no arquivo atual.
+“git status” = para ver se o estado do git está correto.
+“git mv” = para mover um arquivo.
+“git add” = para adicionar seu git ao repositório.
+“git commit -m nome para o arquivo” = parar gerar seu commit para o arquivo e se possível especificar o que foi feito.
+“git remote add origin url” = para linkar o commit do local com o servidor
+“git push origin main or master” = para importar direto do local para o servidor
+“git pull origin main or master = para exportar do servidor para o local
